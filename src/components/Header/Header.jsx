@@ -5,9 +5,9 @@ import Logo from "../../images/logo.svg";
 
 const Header = () => {
   return (
-    <div className="">
-      <header className="">
-        <div className="logo">
+    <div className="container mx-auto">
+      <header className="flex flec-col justify-between">
+        <div className="logo flex-initial">
           <img src={Logo} alt="logo"></img>
         </div>
 
@@ -17,7 +17,7 @@ const Header = () => {
           <span className="inline-block w-10 h-1.5 bg-black rounded"></span>
         </div>
 
-        <nav className="navbar hidden md:flex justify-between">
+        <nav className="navbar flex-auto hidden md:flex justify-between md:ml-4">
           {/* List of items in the navigation bar */}
           <div className="nav-list">
             <ul className="flex space-x-5 md:ml-6">
