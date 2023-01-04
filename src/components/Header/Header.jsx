@@ -11,10 +11,10 @@ const Header = () => {
           <img src={Logo} alt="logo"></img>
         </div>
 
-        <div className="hamburger flex flex-col space-y-2 md:hidden">
-          <span className="inline-block w-10 h-1.5 bg-black rounded"></span>
-          <span className="inline-block w-10 h-1.5 bg-black rounded"></span>
-          <span className="inline-block w-10 h-1.5 bg-black rounded"></span>
+        <div className="hamburger flex flex-col space-y-1.5 md:hidden">
+          <span className="inline-block w-10 h-1.5 bg-black rounded-sm"></span>
+          <span className="inline-block w-10 h-1.5 bg-black rounded-sm"></span>
+          <span className="inline-block w-10 h-1.5 bg-black rounded-sm"></span>
         </div>
 
         <nav className="navbar flex-auto hidden md:flex justify-between md:ml-4">
