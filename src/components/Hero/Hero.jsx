@@ -3,8 +3,8 @@ import heroimage from "../../images/illustration-working.svg";
 const Hero = () => {
   return (
     <div className="container mx-auto flex">
-      <div className="hero-description flex-1">
-        <h1>More than just shorter links</h1>
+      <div className="hero-description flex flex-col justify-center align-middle  flex-1 text-left">
+        <h1 className="text-8xl font-bold">More than just shorter links</h1>
         <h5>
           Build your brand’s recognition and get detailed insights on how your
           links are performing.
