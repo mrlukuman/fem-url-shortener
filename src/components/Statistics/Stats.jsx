@@ -11,10 +11,24 @@ const Stats = () => {
       statdescription:
         "Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.",
     },
+    stat2: {
+      statimage: detailed,
+      stattitle: "Detailed Records",
+      statdescription:
+        "Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.",
+    },
+    stat3: {
+      statimage: custom,
+      stattitle: "Fully Customizable",
+      statdescription:
+        "Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.",
+    },
   };
   return (
-    <div>
+    <div className="container mx-auto flex flex-col align-middle lg:flex-row space-y-3 lg:space-x-3">
       <Card data={data.stat1}></Card>
+      <Card data={data.stat2}></Card>
+      <Card data={data.stat3}></Card>
     </div>
   );
 };
