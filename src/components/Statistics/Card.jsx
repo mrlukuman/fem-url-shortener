@@ -1,10 +1,10 @@
 const Card = ({ data }) => {
   return (
-    <div>
-      <div>
+    <div className="w-96 p-8 flex flex-col">
+      <div className="flex justify-center">
         <img src={data.statimage} alt="" />
       </div>
-      <div>{data.stattitle}</div>
+      <div className="text-2xl font-bold">{data.stattitle}</div>
       <div>{data.statdescription}</div>
     </div>
   );
