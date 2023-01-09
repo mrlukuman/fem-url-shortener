@@ -1,4 +1,5 @@
 import "./App.css";
+import CTA from "./components/CTA/Cta";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Shortener from "./components/shortner/Shortener";
@@ -11,6 +12,7 @@ function App() {
       <Hero></Hero>
       <Shortener></Shortener>
       <Stats></Stats>
+      <CTA></CTA>
     </div>
   );
 }

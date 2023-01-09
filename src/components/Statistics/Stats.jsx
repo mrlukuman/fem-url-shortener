@@ -9,7 +9,7 @@ const Stats = () => {
       statimage: brand,
       stattitle: "Brand Recognition",
       statdescription:
-        "Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.",
+        "Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instill confidence in your content.",
     },
     stat2: {
       statimage: detailed,
