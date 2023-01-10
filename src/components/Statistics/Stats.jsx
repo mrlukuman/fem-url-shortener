@@ -25,7 +25,7 @@ const Stats = () => {
     },
   };
   return (
-    <div className="container mx-auto flex flex-col items-center lg:flex-row space-y-3 lg:space-x-3">
+    <div className="container mx-auto flex flex-col items-center space-y-3 lg:flex-row lg:justify-between lg:space-x-5">
       <Card data={data.stat1}></Card>
       <Card data={data.stat2}></Card>
       <Card data={data.stat3}></Card>
