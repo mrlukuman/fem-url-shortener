@@ -6,8 +6,8 @@ import twitter from "../../images/icon-twitter.svg";
 
 export default function Footer() {
   return (
-    <div className="footer bg-verydarkviolet text-white py-4">
-      <div className="flex flex-col container mx-auto lg:flex-row space-y-5">
+    <div className="footer bg-verydarkviolet text-white">
+      <div className="flex flex-col container mx-auto p-5 lg:flex-row space-y-5 lg:space-y-0">
         <div className="flex justify-center lg:block flex-1 ">
           <img src={logo} alt="" />
         </div>
@@ -30,7 +30,7 @@ export default function Footer() {
           <h4>Carreers</h4>
           <h4>Contact</h4>
         </div>
-        <div className="flex-1 flex justify-center lg:flex-row socials space-x-3">
+        <div className="socials flex-1 flex justify-center lg:flex-row  space-x-3">
           <div>
             <img src={facebook} alt="" />
           </div>
@@ -44,6 +44,28 @@ export default function Footer() {
             <img src={instagram} alt="" />
           </div>
         </div>
+      </div>
+
+      <div className="attribution text-lg mt-10">
+        Challenge by&nbsp;
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noreferrer"
+          className="font-bold"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by&nbsp;
+        <a
+          href="https://github.com/tjalani"
+          target="_blank"
+          rel="noreferrer"
+          className="font-bold"
+        >
+          Tajudeen Lukuman Aleru
+        </a>
+        .
       </div>
     </div>
   );
