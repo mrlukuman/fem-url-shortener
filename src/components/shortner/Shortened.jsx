@@ -5,6 +5,7 @@ function Shortened() {
         <a href="">
           <div>original link</div>
         </a>
+        <hr />
         <a href="">
           <div>shortened link</div>
         </a>
