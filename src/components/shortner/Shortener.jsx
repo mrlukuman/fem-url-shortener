@@ -1,3 +1,5 @@
+import Shortened from "./Shortened";
+
 const Shortener = () => {
   return (
     <div className="container mx-auto my-6 p-4 bg-gray rounded-lg">
@@ -9,6 +11,7 @@ const Shortener = () => {
         />
         <button className="bg-cyan p-3 rounded"> Shorten It!</button>
       </div>
+      <Shortened></Shortened>
     </div>
   );
 };
